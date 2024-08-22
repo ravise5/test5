@@ -4,7 +4,7 @@ import { openPage } from '../utils.js';
 test.describe('error messages test', () => {
   const testURL = '/drafts/tests/x-walk/errormessages';
 
-  test('required OOTB error message ', async ({ page }) => {
+  test('required OOTB error messagesdsdasdasdasd ', async ({ page }) => {
     await openPage(page, testURL);
     const submitButton = await page.getByRole('button', { name: 'Submit' });
     await submitButton.click();
